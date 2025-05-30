@@ -65,7 +65,7 @@ Amplifies the differential EMG signals from the electrodes.
 ---
 
 ### 2. Sallen-Key Low-Pass Filter  
-Filters out high-frequency noise from the amplified EMG signal.
+Filters out high-frequency noise from the amplified EMG signal.FOr this we use 2 second order filters and overall effect is 4th order filter for better rolloff. And also we use TL072 Opamp .
 
 ![Low-Pass Filter Circuit](Assets/lpf.png)
 
